@@ -1,0 +1,24 @@
+def mostrar_menu():
+    print("Seleccione una opción:")
+    print("1. Radio La Comarca")
+    print("2. Actualidad Almanzora")
+    print("3. GranadaFM")
+    print("4. CadenaSER - Granada")
+    print("5. Los 40 Classic")
+    print("6. CanalSur - Granada")
+    print("7. RNE 1 - Granada")
+    print("8. RNE 5 - Granada")
+    print("9. RNE 3")
+    print("4. Salir")
+    return input("Elija una opción: ")
+
+# URLs de las emisoras de radio
+emisora_1 = "https://online.vibacomunicacion.com:9304/stream"
+emisora_2 = "http://94.177.245.40:8000/actualidadalmanzora"
+emisora_3 = "https://streaming2.elitecomunicacion.es:8028/stream"
+emisora_4 = "https://25453.live.streamtheworld.com/SER_ASO_GRANADAAAC.aac"
+emisora_5 = "https://20133.live.streamtheworld.com/LOS40_CLASSIC.mp3"
+emisora_6 = "https://cdnlive.codev8.net/rtvalive/smil:channel13.smil/media-u4keot69f_b250000_32367.aac"
+emisora_7 = "https://rtvehlslivestream.akamaized.net/hls/live/2097719/rne1/and/T1707813714/128/s27099979.aac"
+emisora_8 = "https://rtvehlslivestream.akamaized.net/hls/live/2096782/rne5/main/128/seglist.m3u8"
+
